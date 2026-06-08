@@ -48,6 +48,8 @@ The architecture consists of:
 - A Network Security Group controlling inbound traffic  
 - SSH access enabled while all unnecessary ports remain blocked  
 
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/1039efef-425b-43d6-9183-08e0a351de39" />
+
 
 ---
 
@@ -55,7 +57,7 @@ The architecture consists of:
 ### Create a Resource Group
 A resource group is created to organize all Azure resources used in this project.
 
-<img width="900" height="700" alt="RG01" src="https://github.com/user-attachments/assets/c80907cb-96b8-4308-8301-6935b8d3d023" />
+<img width="900" height="600" alt="RG01" src="https://github.com/user-attachments/assets/c80907cb-96b8-4308-8301-6935b8d3d023" />
 
 
 ---
@@ -65,7 +67,7 @@ A resource group is created to organize all Azure resources used in this project
 - VM size selected based on requirement  
 - Authentication configured using SSH key 
 
-<img width="900" height="700" alt="VM01" src="https://github.com/user-attachments/assets/e48ecb22-306d-447c-9fdd-5547c2c1a11a" />
+<img width="900" height="600" alt="VM01" src="https://github.com/user-attachments/assets/e48ecb22-306d-447c-9fdd-5547c2c1a11a" />
 
 
 ---
@@ -87,14 +89,14 @@ Inbound security rules configured to:
 
 ---
 
-<img width="900" height="700" alt="NSG 01" src="https://github.com/user-attachments/assets/681d63b9-3863-41f8-8c6a-326a9fa60402" />
+<img width="900" height="600" alt="NSG 01" src="https://github.com/user-attachments/assets/681d63b9-3863-41f8-8c6a-326a9fa60402" />
 
 ---
 
 ### Connect to VM Using SSH
 Secure remote access to the Ubuntu VM is established using SSH.
 
-<img width="900" height="700" alt="VM03" src="https://github.com/user-attachments/assets/c882b2f9-bf94-4d8d-b397-8aa22b79d513" />
+<img width="900" height="600" alt="VM03" src="https://github.com/user-attachments/assets/c882b2f9-bf94-4d8d-b397-8aa22b79d513" />
 
 ---
 
