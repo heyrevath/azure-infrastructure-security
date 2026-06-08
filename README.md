@@ -31,6 +31,15 @@ It focuses on **secure network access, SSH-based remote connectivity, and basic 
 - SSH (Port 22)  
 - Azure Portal 
 
+## Azure Resources Used
+
+- Resource Group
+- Ubuntu Linux VM
+- Virtual Network
+- Network Interface
+- Public IP
+- Network Security Group
+  
 ---
 
 ## 🏗️ Architecture Overview
