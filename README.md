@@ -65,7 +65,18 @@ A resource group is created to organize all Azure resources used in this project
 Inbound security rules configured to:
 - Allow SSH (Port 22)  
 - Restrict access to required sources  
-- Block all other inbound traffic  
+- Block all other inbound traffic
+
+## Security Controls Implemented
+
+| Security Control | Purpose |
+|-----------------|---------|
+| SSH Key Authentication | Prevent password-based attacks |
+| Network Security Group | Restrict inbound traffic |
+| Port 22 Access | Secure remote administration |
+| Default Deny Rules | Reduce attack surface |
+
+---
 
 <img width="900" height="700" alt="NSG 01" src="https://github.com/user-attachments/assets/681d63b9-3863-41f8-8c6a-326a9fa60402" />
 
@@ -77,6 +88,7 @@ Secure remote access to the Ubuntu VM is established using SSH.
 <img width="900" height="700" alt="VM03" src="https://github.com/user-attachments/assets/c882b2f9-bf94-4d8d-b397-8aa22b79d513" />
 
 ---
+
 ## Conclusion
 This project presents a secure deployment of an **Ubuntu Linux Virtual Machine on Microsoft Azure**, emphasizing controlled network access and secure remote connectivity. The implementation of **Network Security Groups and SSH-based access** demonstrates foundational cloud security practices relevant to modern cloud environments.
 
